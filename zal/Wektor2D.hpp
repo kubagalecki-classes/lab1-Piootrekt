@@ -40,5 +40,5 @@ Wektor2D operator+(Wektor2D v1, Wektor2D v2)
 
 double operator*(Wektor2D v1, Wektor2D v2)
 {
-  return v1.getX()*v2.getY()-v1.getY()*v2.getX();
+  return v1.getX()*v2.getX()+v1.getY()*v2.getY();
 }
